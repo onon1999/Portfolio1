@@ -13,6 +13,6 @@
 
 ## 🚀 Key Features
 
-[### 🤖 My Blogs](https://portfolio-theta-opal-27.vercel.app/blog)
-[### 🤖 My Projects](https://portfolio-theta-opal-27.vercel.app/#projects)
-[### 🤖 My Skills](https://portfolio-theta-opal-27.vercel.app/#skills)
+[### 🤖 My Blogs](https://portfolio-theta-opal-27.vercel.app/blog)</br>
+[### 🤖 My Projects](https://portfolio-theta-opal-27.vercel.app/#projects)</br>
+[### 🤖 My Skills](https://portfolio-theta-opal-27.vercel.app/#skills)</br>
