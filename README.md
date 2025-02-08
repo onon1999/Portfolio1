@@ -13,8 +13,6 @@
 
 ## 🚀 Key Features
 
-### 🤖 Intelligent Systems Development
-- **3D Conversational AI**: Browser-based avatar system with Three.js + Azure Cognitive Services
-- **Medical QA Automation**: Reduced inspection time by 85% via YOLOv8 + Tesseract OCR pipeline
-- **Generative Design Suite**: Real-time interior visualization using Stable Diffusion + SAM
-- **Personality-Driven Chatbots**: RLHF-tuned LLMs with celebrity persona replication
+[### 🤖 My Blogs](https://portfolio-theta-opal-27.vercel.app/blog)
+[### 🤖 My Projects](https://portfolio-theta-opal-27.vercel.app/#projects)
+[### 🤖 My Skills](https://portfolio-theta-opal-27.vercel.app/#skills)
