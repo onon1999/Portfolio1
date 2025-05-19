@@ -1,4 +1,49 @@
 export const projectsData = [
+  {
+    id: 1,
+    name: 'VegaPunk (Research Paper to Presentation Generator)',
+    description: 'Developed VegaPunk, an AI tool that transforms research papers into structured PowerPoint presentations with customizable length and detail. Features include podcast summary generation, table/chart/formula extraction, an interactive chatbot, and content-aligned image generation. Submitted for EMNLP 2025 Demo track.',
+    tools: ['React', 'FastAPI', 'LangChain', 'Python', 'OpenAI API', 'LaTeX', 'PPTX', 'Mistral OCR'],
+    role: 'Full Stack Developer & AI Engineer',
+    code: 'https://github.com/Rishbah-76/VegaPunk',
+    demo: ''
+  },
+  {
+    id: 2,
+    name: 'Netrr (AI Glasses for Sight Assistance)',
+    description: 'Led development of Netrr, a multi-modal AI glasses system with voice-controlled OCR, real-time face recognition and note-taking, hazardous object detection, and spatial reporting. Built the "Memory Palace" with image captioning (BLIP), semantic search (FAISS), and voice querying via LLaMA.',
+    tools: ['OpenCV', 'Python', 'FAISS', 'LLaMA', 'BLIP', 'TTS/STT', 'YOLO', 'Raspberry Pi'],
+    role: 'Lead ML Engineer',
+    code: 'https://github.com/Rishbah-76/Netrr',
+    demo: ''
+  },
+  {
+    id: 3,
+    name: 'Infra-AI (Agentic AI for Jira Automation)',
+    description: 'Built a FastAPI-based Jira API server powered by agentic AI to automate customer issue resolution. Introduced a Model Context Protocol (MCP) server for context-aware suggestions and an agent-based system for issue analysis, remedy generation, and feedback collection.',
+    tools: ['FastAPI', 'LangChain', 'Python', 'Jira API', 'Docker', 'OpenAI API'],
+    role: 'Backend Developer & AI Systems Architect',
+    code: '',
+    demo: ''
+  },
+  {
+    id: 4,
+    name: 'MangaGen (Personalized Manga Generation)',
+    description: 'Built a pipeline for manga panel generation with personalized characters and narrative consistency. Used ControlNet and LoRA models with LLMs for dialogue, and vector DBs for context retention across pages.',
+    tools: ['ControlNet', 'Stable Diffusion', 'LoRA', 'VectorDB', 'Python', 'LLMs'],
+    role: 'AI Research Engineer',
+    code: '',
+    demo: ''
+  },
+  {
+    id: 5,
+    name: 'RichieRich (Reinforcement Learning Poker AI)',
+    description: 'Implemented a No Limit Texas Hold’em Poker AI agent using Counterfactual Regret Minimization (CFR), Deep Q-Networks (DQN), and Monte Carlo simulations. Designed for strategic decision-making in imperfect-information games.',
+    tools: ['Python', 'RLCard', 'PyTorch', 'NumPy'],
+    role: 'AI Engineer',
+    code: 'https://github.com/Rishbah-76/RichieRich',
+    demo: ''
+  },
     {
       id: 1,
       name: '3D Chatbot Avatar Platform',
