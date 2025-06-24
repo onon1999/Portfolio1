@@ -102,7 +102,9 @@ function AboutSection() {
             </div>
 
             <p className="text-base leading-relaxed">
-            "I'm an AI/ML Engineer currently pursuing a Master's in Computer Science (AI) at NUS. With hands-on experience in building intelligent systems, I specialize in computer vision, NLP, and generative AI. My technical arsenal includes Python, PyTorch, Kubernetes, and cloud platforms. I thrive on solving real-world problems through projects like 3D chatbot avatars, medical QA automation, and AI-powered decor visualization. Passionate about full-cycle development from research to deployment, I'm always eager to explore cutting-edge technologies and contribute to impactful AI solutions."
+            "I'm an AI/ML Engineer with a Bachelor's in Computer Science from East West University, currently driving innovation at Bizz N Tek IT LTD. With hands-on experience in building scalable AI systems, I specialize in natural language processing, generative AI, and data-driven automation. My toolkit includes Python, TensorFlow, PyTorch, and cloud platforms like AWS and Microsoft Copilot Studio. From developing hybrid news recommender systems to automating medical insights and chatbot optimization, I thrive in full-cycle AI development — from research to real-world deployment. I'm passionate about ethical, impactful AI and constantly exploring the edge of what's possible in machine learning and intelligent systems.
+
+"
             </p>
             {/* <Link
               href={personalData.github}

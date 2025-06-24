@@ -10,9 +10,7 @@ import "./css/globals.scss";
 const inter = Inter({ subsets: ["latin"] });
 
 export const metadata = {
-  title: "Portfolio of Rishabh - AI/ML Engineer",
   description:
-    "I'm an AI/ML Engineer currently pursuing a Master's in Computer Science (AI) at NUS. With hands-on experience in building intelligent systems, I specialize in computer vision, NLP, and generative AI. My technical arsenal includes Python, PyTorch, Kubernetes, and cloud platforms. I thrive on solving real-world problems through projects like 3D chatbot avatars, medical QA automation, and AI-powered decor visualization. Passionate about full-cycle development from research to deployment, I'm always eager to explore cutting-edge technologies and contribute to impactful AI solutions.",
 };
 
 export default function RootLayout({ children }) {

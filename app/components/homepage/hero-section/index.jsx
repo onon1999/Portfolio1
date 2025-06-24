@@ -272,16 +272,18 @@ import { SiLeetcode } from "react-icons/si";
 //                 <span className="mr-2 text-white">AIEngineer</span>
 //                 <span className="mr-2 text-purple-400">extends</span>
 //                 <span className="text-cyan-400">Developer</span>
-//                 <span className="text-gray-400">{' {'}</span>
+//                 <span className="text-gray-400"> {'{'}</span>
 //               </div>
-//               <div>
-//                 <span className="ml-4 lg:ml-8 mr-2 text-white">constructor()</span>
-//                 <span className="text-gray-400">{'{'}</span>
+
+//               {/* Constructor */}
+//               <div className="ml-4 lg:ml-8">
+//                 <span className="text-white">constructor</span>
+//                 <span className="text-gray-400">{'() {'}</span>
 //               </div>
 //               <div className="ml-8 lg:ml-16">
 //                 <span className="text-white">this.name</span>
 //                 <span className="mx-2 text-purple-400">=</span>
-//                 <span className="text-cyan-300">'Rishabh'</span>
+//                 <span className="text-cyan-300">'Rishabh'</span> {/* Change to your name if needed */}
 //                 <span className="text-gray-400">;</span>
 //               </div>
 //               <div className="ml-8 lg:ml-16">
@@ -292,34 +294,58 @@ import { SiLeetcode } from "react-icons/si";
 //                 <span className="text-gray-400">, </span>
 //                 <span className="text-cyan-300">'CV'</span>
 //                 <span className="text-gray-400">, </span>
-//                 <span className="text-cyan-300">'Generative AI'</span>
+//                 <span className="text-cyan-300">'GenerativeAI'</span>
 //                 <span className="text-gray-400">];</span>
 //               </div>
-//               <div className="ml-4 lg:ml-8 mt-4">
-//                 <span className="text-white">stack</span>
+//               <div className="ml-8 lg:ml-16">
+//                 <span className="text-white">this.techStack</span>
 //                 <span className="mx-2 text-purple-400">=</span>
 //                 <span className="text-gray-400">[</span>
 //                 <span className="text-cyan-300">'PyTorch'</span>
 //                 <span className="text-gray-400">, </span>
 //                 <span className="text-cyan-300">'TensorFlow'</span>
 //                 <span className="text-gray-400">, </span>
-//                 <span className="text-cyan-300">'K8s'</span>
+//                 <span className="text-cyan-300">'Kubernetes'</span>
 //                 <span className="text-gray-400">, </span>
 //                 <span className="text-cyan-300">'AWS/Azure'</span>
 //                 <span className="text-gray-400">, </span>
 //                 <span className="text-cyan-300">'Docker'</span>
 //                 <span className="text-gray-400">];</span>
 //               </div>
-//               <div className="mt-4">
-//                 <span className="ml-4 lg:ml-8 text-white">deploy()</span>
-//                 <span className="text-gray-400">{' {'}</span>
+//               <div className="ml-8 lg:ml-16">
+//                 <span className="text-white">this.motto</span>
+//                 <span className="mx-2 text-purple-400">=</span>
+//                 <span className="text-cyan-300">'Innovation Unleashed'</span>
+//                 <span className="text-gray-400">;</span>
+//               </div>
+//               <div className="ml-4 lg:ml-8 text-gray-400">{'}'}</div>
+
+//               {/* Build Method */}
+//               <div className="ml-4 lg:ml-8 mt-4">
+//                 <span className="text-white">buildLLM</span>
+//                 <span className="text-gray-400">{'() {'}</span>
+//               </div>
+//               <div className="ml-8 lg:ml-16">
+//                 <span className="text-purple-400">console</span>
+//                 <span className="text-gray-400">.</span>
+//                 <span className="text-white">log</span>
+//                 <span className="text-gray-400">{'( ) => '}</span>
+//                 <span className="text-cyan-300">'Fine-tuning advanced language models...'</span>
+//                 <span className="text-gray-400">;</span>
+//               </div>
+//               <div className="ml-4 lg:ml-8 text-gray-400">{'}'}</div>
+
+//               {/* Deploy Method */}
+//               <div className="ml-4 lg:ml-8 mt-4">
+//                 <span className="text-white">deploy</span>
+//                 <span className="text-gray-400">{'() {'}</span>
 //               </div>
 //               <div className="ml-8 lg:ml-16">
 //                 <span className="text-purple-400">return</span>
-//                 <span className="mx-2 text-cyan-300">'Production-Ready AI Solutions'</span>
+//                 <span className="ml-2 text-cyan-300">'Production-Ready AI Solutions'</span>
 //                 <span className="text-gray-400">;</span>
 //               </div>
-//               <div className="text-gray-400">{'}'}</div>
+//               <div className="text-gray-400">{'  }'}</div>
 //               <div className="text-gray-400">{'}'}</div>
 //             </code>
 //           </div>
@@ -386,13 +412,15 @@ function HeroSection() {
             >
               <BsLinkedin size={30} />
             </Link>
-            <Link
-              href={personalData.leetcode}
-              target="_blank"
-              className="transition-all text-cyan-400 hover:scale-125 duration-300"
-            >
-              <SiLeetcode size={30} />
-            </Link>
+            {personalData.leetcode && (
+              <Link
+                href={personalData.leetcode}
+                target="_blank"
+                className="transition-all text-cyan-400 hover:scale-125 duration-300"
+              >
+                <SiLeetcode size={30} />
+              </Link>
+            )}
           </div>
 
           {/* Buttons: Contact & Resume */}
@@ -455,7 +483,7 @@ function HeroSection() {
               <div className="ml-8 lg:ml-16">
                 <span className="text-white">this.name</span>
                 <span className="mx-2 text-purple-400">=</span>
-                <span className="text-cyan-300">'Rishabh'</span>
+                <span className="text-cyan-300">'MAHIR'</span>
                 <span className="text-gray-400">;</span>
               </div>
               <div className="ml-8 lg:ml-16">
@@ -477,7 +505,7 @@ function HeroSection() {
                 <span className="text-gray-400">, </span>
                 <span className="text-cyan-300">'TensorFlow'</span>
                 <span className="text-gray-400">, </span>
-                <span className="text-cyan-300">'Kubernetes'</span>
+                <span className="text-cyan-300">'Microsft 365'</span>
                 <span className="text-gray-400">, </span>
                 <span className="text-cyan-300">'AWS/Azure'</span>
                 <span className="text-gray-400">, </span>
@@ -517,7 +545,7 @@ function HeroSection() {
                 <span className="ml-2 text-cyan-300">'Production-Ready AI Solutions'</span>
                 <span className="text-gray-400">;</span>
               </div>
-              <div className="text-gray-400">{`  }`}</div>
+              <div className="text-gray-400">{'  }'}</div>
               <div className="text-gray-400">{'}'}</div>
             </code>
           </div>
