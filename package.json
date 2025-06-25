@@ -1,15 +1,15 @@
 {
-  "homepage": "https://github.io/Rishbah-76/Portfolio",
+  "homepage": "https://github.io/onon1999/Portfolio1",
   "name": "developer-portfolio",
-  "description": "Portfolio of Abu Said",
+  "description": "Portfolio of Mahir Tagwar",
   "version": "0.1.0",
   "private": true,
   "scripts": {
     "dev": "next dev",
     "build": "next build",
-    "start": "next start",
-    "predeploy": "npm run build",
-    "deploy": "gh-pages -d build",
+    "export": "next build && next export",
+    "predeploy": "npm run export",
+    "deploy": "gh-pages -d out",
     "lint": "next lint"
   },
   "dependencies": {
